@@ -9,6 +9,9 @@ public class IndexController {
 	
 	@RequestMapping(value = "/index" , method=RequestMethod.GET) 
 	public String getIndex() { 
+		
+		//테스트 입니다.
+		
 		return "index";
 	}
 }
