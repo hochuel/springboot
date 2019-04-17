@@ -10,7 +10,7 @@ public class IndexController {
 	@RequestMapping(value = "/index" , method=RequestMethod.GET) 
 	public String getIndex() { 
 		
-		//�׽�Ʈ �Դϴ�.
+		//테스트 파일입니다.
 		
 		return "index";
 	}
